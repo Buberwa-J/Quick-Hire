@@ -1,6 +1,6 @@
 # Quick Hire - AI-Powered Career Intelligence Platform
 
-> **Active Development Repository** - This is a showcase/walkthrough version of our cutting-edge SaaS platform
+> **Active Development Repository** - This is a showcase/walkthrough version of our cutting-edge SaaS platform that on active development
 
 <div align="center">
 
@@ -166,13 +166,12 @@ Advanced resume upload and processing capabilities with AI-powered data extracti
 
 - **Multi-format Support**: PDF, DOC, DOCX resume parsing
 - **Structured Data Extraction**: AI converts unstructured resumes into queryable data
-- **Profile Enhancement**: Continuous learning from user interactions
 
 ---
 
 ## Video Demonstrations
 
-**HD Video Previews** - Click thumbnails below to watch full-quality demonstrations
+**HD Video Previews** - Click thumbnails below to watch video demonstrations
 
 <div align="center">
 
@@ -183,7 +182,7 @@ Advanced resume upload and processing capabilities with AI-powered data extracti
 | **AI Resume Generation** | [![Resume Creation](https://img.shields.io/badge/▶️_Watch_Demo-AI_Resume-orange?style=for-the-badge&logo=play)](demos/large%20screen/videos/Resume_Generation_Compressed.mp4) | 3.1MB |
 | **AI Cover Letter** | [![Cover Letter](https://img.shields.io/badge/▶️_Watch_Demo-AI_Cover_Letter-purple?style=for-the-badge&logo=play)](demos/large%20screen/videos/Cover_Letter_Compressed.mp4) | 3.1MB |
 
-*All videos are optimized for fast loading while maintaining full HD quality (87% smaller than originals)*
+*All videos have been compressed for fast loading so quality may be an issue. Email me for HD demos @ joramjesse29100@outlook.com*
 
 </div>
 
@@ -191,7 +190,7 @@ Advanced resume upload and processing capabilities with AI-powered data extracti
 
 ## Synthetic Demo Data
 
-**Note**: All job listings and user profiles shown in the demo images are AI-generated synthetic data created for demonstration purposes. No real personal or company information is used.
+**Note**: All job listings and user profiles shown in the demo images are AI-generated (gemma3:4b-it-qat) synthetic data created for demonstration purposes. No real personal or company information is used. 
 
 ```php
 // AI-Generated Job Data Seeding
@@ -258,54 +257,18 @@ class UserProfileSeeder extends Seeder
 ### Optimized Architecture
 - **Asynchronous Processing**: Non-blocking AI operations
 - **Efficient Data Models**: Optimized database relationships
-- **Caching Strategy**: Redis-powered performance enhancement
 - **Resource Management**: Smart timeout and retry mechanisms
 
 ### Security Features
 - **Authentication**: Laravel Breeze integration
 - **File Validation**: Secure document upload handling
 - **Data Protection**: Encrypted sensitive information storage
-- **Access Control**: Role-based permissions system
 
 ---
 
 ## Getting Started
 
 **Note**: This is a development showcase repository. Production deployment requires additional configuration and API keys.
-
-### Prerequisites
-```bash
-- PHP 8.2+
-- Composer
-- Node.js & NPM
-- MySQL/PostgreSQL
-- Redis (optional, for queues)
-- Ollama (for local AI models)
-```
-
-### Quick Setup
-```bash
-# Clone the repository
-git clone [repository-url]
-cd quick-hire
-
-# Install dependencies
-composer install
-npm install
-
-# Environment setup
-cp .env.example .env
-php artisan key:generate
-
-# Database migration
-php artisan migrate
-
-# Asset compilation
-npm run build
-
-# Start development server
-php artisan serve
-```
 
 ---
 
@@ -321,20 +284,10 @@ php artisan serve
 - **Candidate Intelligence**: Deep insights into applicant profiles
 - **Efficient Screening**: AI-powered compatibility analysis
 - **Streamlined Process**: Automated document processing workflows
-- **Analytics Dashboard**: Advanced recruitment metrics
 
 ---
 
-## Innovation Pipeline
-
-### Current Development Focus
-- Enhanced AI model fine-tuning for domain-specific optimization
-- Advanced analytics and insights dashboard
-- Multi-language support for global deployment
-- Enterprise-grade integrations and APIs
-
 ### Future Roadmap
-- Real-time collaboration features
 - Advanced ML-driven job recommendations
 - Integration with major job boards and ATS systems
 
@@ -343,30 +296,18 @@ php artisan serve
 ## Technical Highlights
 
 ### Performance Metrics
-- **Fast Processing**: Sub-30 second document generation
-- **High Accuracy**: 95%+ structured data extraction accuracy
+- **Fast Processing**: Sub-90 second document generation with the current local model
+- **High Accuracy**: 90%+ structured data extraction accuracy
 - **Reliability**: Robust error handling and retry mechanisms
 - **Scalability**: Queue-based architecture for high-volume processing
 
-### Code Quality
-- **Testing**: Comprehensive PHPUnit test suite
-- **Documentation**: Detailed inline code documentation
-- **Code Standards**: PSR-12 compliance with automated linting
-- **Security**: Regular security audits and updates
 
 ---
 
 ## Contributing
 
-This showcase repository demonstrates our development practices and architectural decisions. For collaboration opportunities or technical discussions, please reach out through appropriate channels.
+This showcase repository demonstrates our development practices and architectural decisions. For collaboration opportunities or technical discussions, please reach out through joramjesse29100@outlook.com .
 
-### Development Guidelines
-- Follow PSR-12 coding standards
-- Maintain comprehensive test coverage
-- Document all new features and APIs
-- Ensure mobile-first responsive design
-
----
 
 ## License & Usage
 
@@ -382,10 +323,3 @@ This repository serves as a technical demonstration and portfolio showcase. The 
 
 ---
 
-<div align="center">
-
-**Star this repository if you find our technical approach interesting!**
-
-*This project showcases advanced full-stack development with AI integration*
-
-</div>
